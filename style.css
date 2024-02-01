@@ -1,0 +1,43 @@
+body
+{
+    background-image: url(cc.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#p1
+{
+
+    background-color: rgb(214, 125, 125);
+    font-size:1.5em ;
+    border: 1px solid;
+    border-color: hsl(54, 97%, 54%);
+    width:550px;
+    height: 50px;
+    margin-inline: auto;
+    
+}
+#p2
+{
+    font-size:2em;
+    background-color: rgb(214, 125, 125);
+    color:hsl(0, 0%, 97%);
+    width:950px;
+    border: 1px solid;
+    margin-inline: auto;
+    display:none;
+}
+
+span
+{
+
+
+    color:white;
+   
+}
+span:hover #p2
+{
+    display:block;
+}
