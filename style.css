@@ -5,6 +5,11 @@ body
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 #p1
@@ -42,7 +47,13 @@ span:hover #p2
 {
     display:block;
 }
-audio
+
+span:active #p2
 {
-    margin-bottom:auto;
+    background-color: rgb(253, 198, 46);
+}
+
+footer
+{
+    margin-top: auto;
 }
